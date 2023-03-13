@@ -26,7 +26,16 @@ return {
   lsp = {
     setup_handlers = {
       -- add custom handler
-      clangd = function(_, opts) require("clangd_extensions").setup { server = opts } end
+      clangd = function(_, opts)
+        require("clangd_extensions").setup {
+          server = opts,
+          extensions = {
+            inlay_hints = {
+              only_current_line = true,
+            }
+          }
+        }
+      end
     },
     config = {
       clangd = {
