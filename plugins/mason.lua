@@ -12,6 +12,7 @@ return {
         "tailwindcss",
         "astro",
         "emmet_ls",
+        "glint"
       },
     },
   },

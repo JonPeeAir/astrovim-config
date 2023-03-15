@@ -1,9 +1,9 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
-    ensure_installed = { 
-      "lua", 
-      "c", 
+    ensure_installed = {
+      "lua",
+      "c",
       "cpp",
       "html",
       "css",
@@ -12,7 +12,8 @@ return {
       "tsx",
       "astro",
       "prisma",
-      "markdown"
+      "markdown",
+      "glimmer"
     },
   },
 }
