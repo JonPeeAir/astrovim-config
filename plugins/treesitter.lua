@@ -13,7 +13,7 @@ return {
       "astro",
       "prisma",
       "markdown",
-      "glimmer"
+      "glimmer",
     },
   },
 }

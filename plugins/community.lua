@@ -12,8 +12,10 @@ return {
       everforest_background = "hard",
       everforest_transparent_background = 2,
       everforest_sign_column_background = "grey",
-      everforest_ui_contrast = "high"
-    }
+      everforest_ui_contrast = "high",
+    },
   },
+  { import = "astrocommunity.colorscheme.kanagawa" },
+  { import = "astrocommunity.colorscheme.tokyonight" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
